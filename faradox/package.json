@@ -1,5 +1,5 @@
 {
-  "name": "faradox",
+  "name": "@aldocedok/faradox",
   "version": "1.1.5",
   "scripts": {
     "dev": "next dev",
@@ -8,11 +8,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "faradox": "^1.1.4",
+    "faradox": "^1.1.5",
     "kopianget": "^1.1.4",
     "next": "14.1.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "vensor": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -29,7 +30,7 @@
   "main": "postcss.config.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cedok123/faradox"
+    "url": "git+https://github.com/cedok123/faradox.git"
   },
   "author": "",
   "license": "ISC",
